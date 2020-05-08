@@ -1,0 +1,23 @@
+{
+  "id": "1.15.2-OptiFine_HD_U_G1_pre13",
+  "inheritsFrom": "1.15.2",
+  "time": "2020-04-30T16:19:19+02:00",
+  "releaseTime": "2020-04-30T16:19:19+02:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "optifine:OptiFine:1.15.2_HD_U_G1_pre13"
+    },
+    {
+      "name": "optifine:launchwrapper-of:2.1"
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": "21",
+  "arguments": {
+    "game": [
+      "--tweakClass",
+      "optifine.OptiFineTweaker"
+    ]
+  }
+}
